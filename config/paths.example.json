@@ -1,0 +1,22 @@
+{
+  "external_data": {
+    "ibtracs_csv": "external_data/ibtracs/ibtracs.ALL.list.v04r01.csv",
+    "coastal_hazard_root": "external_data/coastal_hazard",
+    "ar6_root": "external_data/ar6",
+    "psmsl_shek_pik_root": "external_data/psmsl/SHEK_PIK_1902",
+    "hkpd_control_root": "external_data/hkpd",
+    "egm2008_grid": "external_data/geoid/us_nga_egm08_25.tif",
+    "wang_ssp_archives": "external_data/population/wang_ssp_archives"
+  },
+  "private_inputs": {
+    "insar_npz": "private_inputs/insar_settlement_timeseries_tc06_20170312_20251231.npz",
+    "era5_vertical_h5": "private_inputs/leveling/geo_timeseries_era5_demErr_vertical.h5",
+    "dem_aligned": "private_inputs/inundation/dem_cop30_aligned_to_insar.tif",
+    "land_mask": "private_inputs/inundation/land_mask_gshhg_f_center_aligned_to_insar.tif",
+    "subsidence_2050": "private_inputs/inundation/ols_linear_subsidence_2050_m.tif",
+    "subsidence_2100": "private_inputs/inundation/ols_linear_subsidence_2100_m.tif"
+  },
+  "outputs": {
+    "root": "outputs"
+  }
+}

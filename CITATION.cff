@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+message: "If you use this software or the accompanying aggregate tables, please cite the archived release and the associated article."
+title: "Code and derived tables for connected coastal inundation screening in the Pearl River Estuary"
+type: software
+version: 1.0.0
+date-released: 2026-08-09
+license: MIT
+authors:
+  - family-names: Wang
+    given-names: Baihan
+    email: baihanwang5@gmail.com
+    affiliation: Shandong University of Science and Technology
+  - family-names: Luo
+    given-names: Gan
+    email: 15170154765@163.com
+    affiliation: Shandong University of Science and Technology
+  - family-names: Wang
+    given-names: Yixuan
+    email: 202482190024@sdust.edu.cn
+    affiliation: Shandong University of Science and Technology
+  - family-names: Gu
+    given-names: Wendi
+    email: a1iglesias@163.com
+    affiliation: Shandong University of Science and Technology
+  - family-names: Zhang
+    given-names: Yi
+    email: yizhang@sdust.edu.cn
+    affiliation: Shandong University of Science and Technology
+abstract: >-
+  Python workflows and aggregate tables for vertical-datum harmonisation,
+  sea-level and historical-water-level preparation, connected-inundation
+  screening, population-exposure calculation, trend sensitivity and
+  levelling/InSAR quality control in the Pearl River Estuary.
+keywords:
+  - land subsidence
+  - connected inundation
+  - vertical datum
+  - Pearl River Estuary
+  - SBAS-InSAR
+  - sea-level rise
+preferred-citation:
+  type: article
+  title: "Land subsidence and vertical-datum uncertainty shape estimates of future connected coastal inundation in the Pearl River Estuary"
+  authors:
+    - family-names: Wang
+      given-names: Baihan
+    - family-names: Luo
+      given-names: Gan
+    - family-names: Wang
+      given-names: Yixuan
+    - family-names: Gu
+      given-names: Wendi
+    - family-names: Zhang
+      given-names: Yi
+  journal: "Ocean & Coastal Management"
+  year: 2026
