@@ -5,19 +5,18 @@ and Python scripts supporting the International Journal of Digital Earth
 manuscript, *A vertically harmonised Digital Earth framework for
 subsidence-sensitive coastal inundation screening*.
 
-The current `main` branch is prepared for corrected release `v1.1.1`.
+The current audited package is archived as release `v1.1.1`.
 Release `v1.1.0` was generated from the same source commit as `v1.0.0` and is
 therefore superseded; it should not be used to reproduce the IJDE analysis.
 
 ## Persistent record
 
-- Zenodo concept DOI: https://doi.org/10.5281/zenodo.21862032
+- Current `v1.1.1` version DOI: https://doi.org/10.5281/zenodo.21965956
+- Zenodo concept DOI for all versions: https://doi.org/10.5281/zenodo.21862032
 - Previous `v1.0.0` version DOI: https://doi.org/10.5281/zenodo.21862033
 - Superseded `v1.1.0` version DOI: https://doi.org/10.5281/zenodo.21965633
 
-Zenodo will assign a new version DOI when the corrected GitHub release is
-published. Cite that version DOI when referring to the exact IJDE analysis
-package.
+Cite 10.5281/zenodo.21965956 when referring to the exact IJDE analysis package. Use the concept DOI only when referring to the evolving record as a whole.
 
 ## Contents
 

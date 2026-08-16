@@ -5,6 +5,7 @@ type: software
 version: 1.1.1
 date-released: 2026-08-16
 license: MIT
+doi: 10.5281/zenodo.21965956
 authors:
   - family-names: Wang
     given-names: Baihan
