@@ -1,0 +1,11 @@
+* text=auto eol=lf
+
+*.cff text eol=lf
+*.csv text eol=lf
+*.drawio text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.svg text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf

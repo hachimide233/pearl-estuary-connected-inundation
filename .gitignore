@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+
+# Large local geospatial products excluded from the public repository.
+*.h5
+*.hdf5
+*.he5
+*.tif
+*.tiff
+*.npz
+*.npy
+*.nc
+*.grd
+outputs/

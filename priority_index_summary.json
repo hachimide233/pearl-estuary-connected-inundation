@@ -1,0 +1,13 @@
+{
+  "target": "SSP5-8.5 2100, no added water",
+  "target_water_level_egm2008_m": 1.732469235,
+  "central_top_decile_cutoff": 0.37788501381874084,
+  "central_top_decile_area_km2": 25.04008588650218,
+  "robust_hotspot_area_frequency_ge_2_over_3_km2": 0.0,
+  "moderately_recurrent_area_frequency_ge_1_over_3_km2": 22.142411910466762,
+  "maximum_top_decile_recurrence_fraction": 0.4444444477558136,
+  "rate_normalisation_p95_m_per_year": 0.03680816665291786,
+  "population_log_normalisation_p99": 9.225783348083496,
+  "sensitivity_cases": 9,
+  "interpretation": "Relative priority for improved local data acquisition, not flood probability or expected loss."
+}

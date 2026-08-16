@@ -1,0 +1,58 @@
+{
+  "dem": {
+    "shape": [
+      2991,
+      4874
+    ],
+    "crs": "EPSG:4326",
+    "nodata": -9999.0,
+    "bounds": [
+      112.0529938,
+      21.2276408,
+      114.7303744,
+      22.7856837
+    ],
+    "transform": [
+      0.0005493189577349213,
+      0.0,
+      112.0529938,
+      0.0,
+      -0.0005209103644266132,
+      22.7856837,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "rate": {
+    "nodata": -9999.0,
+    "dtype": "float32",
+    "min_valid": 0.0,
+    "max_valid": 0.15497149527072906
+  },
+  "sub_2100": {
+    "nodata": -9999.0,
+    "dtype": "float32",
+    "min_valid": 0.0,
+    "max_valid": 3.0
+  },
+  "common_domain": {
+    "area_km2": 3942.0969440548497,
+    "share_of_dem_valid_land_percent": 21.49102545127309,
+    "built_up_area_km2": 513.5724637374261,
+    "share_of_built_up_area_percent": 20.168795310017448,
+    "population_2020": 3545229.9781376002,
+    "share_of_population_2020_percent": 11.365249131921406
+  },
+  "reference_domain": {
+    "dem_valid_land_area_km2": 18342.991370946085,
+    "built_up_area_km2": 2546.3715400113397,
+    "population_2020": 31193596.699786946
+  },
+  "definitions": {
+    "insar_support": "finite and non-nodata in both OLS rate and OLS 2100 cumulative-subsidence rasters",
+    "common_analysis_land": "GSHHG land AND valid DEM AND InSAR support",
+    "built_up": "ESA WorldCover 2021 class 50, fractional coverage after average resampling",
+    "population": "SSP2 2020 grid, area-weighted overlap"
+  }
+}

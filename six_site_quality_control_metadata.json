@@ -1,0 +1,17 @@
+{
+  "comparison_pixel_provenance": "Figure 7 and Table 3 use the same six benchmark-pixel pairs; no sites or pixels were reselected during manuscript repackaging.",
+  "settlement_positive_direction": "down",
+  "distance_summary_m": {
+    "minimum_m": 71.49,
+    "maximum_m": 133.65,
+    "mean_m": 113.14,
+    "median_m": 117.96
+  },
+  "trend_model": "controlled quadratic description of levelling observations",
+  "interval": "residual-bootstrap 95% confidence interval",
+  "limitations": [
+    "Levelling (2013-2015) and InSAR (2017-2025) do not overlap in time.",
+    "Benchmark-pixel separations range from 71.49 to 133.65 m.",
+    "Correlation and RMSE are descriptive historical-trend diagnostics, not independent accuracy metrics."
+  ]
+}
