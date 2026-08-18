@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.2.0 - 2026-08-18
+## v1.2.1 - 2026-08-18
 
 - Replaced journal-specific repository wording with journal-neutral metadata.
 - Corrected the six-site benchmark-to-pixel distance statistics to 8.30-27.97 m (mean 21.26 m; median 23.93 m).
@@ -9,6 +9,11 @@
 - Replaced local absolute paths in public metadata with portable placeholders.
 - Renamed journal-specific scripts and analytical-framework source files without changing their scientific logic.
 - Regenerated the package SHA-256 manifest.
+
+## v1.2.0 - 2026-08-18
+
+- A tag was created before the journal-neutral package update was committed.
+- This tag is superseded by `v1.2.1` and should not be used for the corrected package.
 
 ## v1.1.1 - 2026-08-16
 

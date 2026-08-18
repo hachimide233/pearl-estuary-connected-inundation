@@ -5,10 +5,11 @@ Python workflows for a multi-source Earth-observation analysis of land
 subsidence and connected coastal-inundation exposure in the Pearl River
 Estuary.
 
-Release `v1.2.0` is journal-neutral and supersedes the journal-specific
+Release `v1.2.1` is journal-neutral and supersedes the journal-specific
 wording used in `v1.1.1`. Scientific values are unchanged except for the
 documented correction to the six-site benchmark-to-pixel distance summary.
-Published earlier releases remain available as part of the version history.
+Published earlier releases and the prematurely created `v1.2.0` tag remain
+available as part of the version history.
 
 ## Persistent record
 
