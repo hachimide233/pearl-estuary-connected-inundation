@@ -60,7 +60,7 @@ def horizontal_arrow(ax, x0, x1, y, color="#667D89"):
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Generate the IJDE analytical-framework figure.")
+    parser = argparse.ArgumentParser(description="Generate the analytical-framework figure.")
     parser.add_argument("--out", type=Path, default=Path("figures"), help="Output directory.")
     return parser.parse_args()
 
@@ -78,7 +78,7 @@ def main():
     columns = [
         (0.025, 0.285, "1  SOURCE DATA", blue, "#F3F8FB"),
         (0.357, 0.285, "2  TRACEABLE\nTRANSFORMATION", gold, "#FFFAF0"),
-        (0.689, 0.285, "3  DIGITAL EARTH\nOUTPUT", purple, "#F8F5FC"),
+        (0.689, 0.285, "3  ANALYSIS\nOUTPUT", purple, "#F8F5FC"),
     ]
     for x, w, heading, edge, face in columns:
         ax.add_patch(
@@ -135,7 +135,7 @@ def main():
     ax.text(0.165, 0.048, "datum interval | DEM +/-0.5 and +/-1 m | 4/8-neighbour connectivity", color="#455A64", fontsize=5.45, va="center")
 
     OUT.mkdir(parents=True, exist_ok=True)
-    base = OUT / "Figure_Analytical_framework_IJDE"
+    base = OUT / "Figure_Analytical_framework"
     common = {"bbox_inches": "tight", "pad_inches": 0.03}
     fig.savefig(base.with_suffix(".svg"), **common)
     fig.savefig(base.with_suffix(".pdf"), **common)

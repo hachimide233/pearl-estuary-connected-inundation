@@ -1,50 +1,65 @@
-# IJDE reproducibility package
+# Pearl River Estuary coastal-inundation reproducibility package
 
-This repository contains the audited aggregate outputs, source-data mappings
-and Python scripts supporting the International Journal of Digital Earth
-manuscript, *A vertically harmonised Digital Earth framework for
-subsidence-sensitive coastal inundation screening*.
+This repository provides audited aggregate outputs, provenance metadata and
+Python workflows for a multi-source Earth-observation analysis of land
+subsidence and connected coastal-inundation exposure in the Pearl River
+Estuary.
 
-The current audited package is archived as release `v1.1.1`.
-Release `v1.1.0` was generated from the same source commit as `v1.0.0` and is
-therefore superseded; it should not be used to reproduce the IJDE analysis.
+Release `v1.2.0` is journal-neutral and supersedes the journal-specific
+wording used in `v1.1.1`. Scientific values are unchanged except for the
+documented correction to the six-site benchmark-to-pixel distance summary.
+Published earlier releases remain available as part of the version history.
 
 ## Persistent record
 
-- Current `v1.1.1` version DOI: https://doi.org/10.5281/zenodo.21965956
 - Zenodo concept DOI for all versions: https://doi.org/10.5281/zenodo.21862032
+- Previous `v1.1.1` version DOI: https://doi.org/10.5281/zenodo.21965956
 - Previous `v1.0.0` version DOI: https://doi.org/10.5281/zenodo.21862033
-- Superseded `v1.1.0` version DOI: https://doi.org/10.5281/zenodo.21965633
 
-Cite 10.5281/zenodo.21965956 when referring to the exact IJDE analysis package. Use the concept DOI only when referring to the evolving record as a whole.
+Use the concept DOI to cite the evolving record. After Zenodo archives this
+release, use the new version-specific DOI when an exact-file citation is
+required. The version DOI is minted by Zenodo and is therefore not predicted
+or hard-coded here.
 
 ## Contents
 
 - common-domain and administrative-coverage audits;
 - stabilised, decaying-trend and continued-trend scenario summaries;
 - terrain, vertical-datum and connectivity sensitivity summaries;
-- six-site historical-comparison metadata and pixel-distance summary;
-- source-data mappings for manuscript figures and tables;
-- Python scripts used for the revised analysis and selected figures;
-- editable draw.io and SVG sources for the Digital Earth framework.
+- six-site historical-comparison metadata and pixel-distance statistics;
+- source-to-output mappings for disclosed figures and tables;
+- Python scripts for the common-domain analysis and selected visual outputs;
+- editable draw.io and SVG sources for the analytical framework.
 
-Run a script with `--help` to inspect its required arguments. Large local input
-rasters are intentionally not included, so reproducing raster-level outputs
-requires the source products described in the manuscript and user-supplied
+Run any Python script with `--help` to inspect its required arguments. Large
+local rasters are intentionally excluded, so raster-level reproduction
+requires the source products cited by the accompanying study and user-supplied
 paths.
+
+## Interpretation boundaries
+
+The 2050 scenarios are the principal assessment horizon. Results for 2100 are
+retained as exploratory, high-uncertainty extensions and should not be given
+the same evidential weight as the 2050 results.
+
+The six-site comparison uses fixed benchmark-pixel pairs with separations of
+8.30-27.97 m (mean 21.26 m; median 23.93 m). Levelling observations from
+2013-2015 and InSAR observations from 2017-2025 do not overlap in time.
+Accordingly, correlation, RMSE and fitted curves are historical-trend
+consistency diagnostics, not independent or contemporaneous accuracy metrics.
 
 ## Availability boundary
 
-Large derived SBAS-InSAR time-series rasters, deformation rasters, spatial
-masks, observation-level six-site series and third-party source datasets are
-not redistributed. Their aggregate outputs and provenance are documented in
-this repository. Original Sentinel, Copernicus, AR6, HKO, IBTrACS, GSHHG,
-WorldCover, GADM and SSP products remain subject to their providers' terms.
+Large derived SBAS-InSAR time-series rasters, deformation rasters, future
+subsidence rasters, spatial masks, observation-level six-site series and
+third-party source datasets are not redistributed. Their aggregate outputs
+and provenance are documented here. Original Sentinel, Copernicus, AR6, HKO,
+IBTrACS, GSHHG, WorldCover, GADM and SSP products remain subject to their
+providers' terms.
 
-No synthetic values are included. Machine-readable files were copied or
-reformatted without numerical alteration from the audited manuscript build
-inputs. The six-site figure, matching table and distance summary use one
-consistent benchmark-pixel pairing.
+No synthetic scientific values are included. Machine-readable files were
+copied or reformatted without numerical alteration from audited analysis
+inputs, apart from explicitly documented factual corrections.
 
 ## Licence
 

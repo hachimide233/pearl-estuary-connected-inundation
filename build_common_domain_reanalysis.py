@@ -333,7 +333,7 @@ def plot_priority(priority: np.ndarray, frequency: np.ndarray, common: np.ndarra
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Build the audited IJDE common-domain scenario analysis."
+        description="Build the audited common-domain coastal-inundation scenario analysis."
     )
     parser.add_argument("--dem", type=Path, required=True, help="Aligned Copernicus DEM raster.")
     parser.add_argument("--land-mask", type=Path, required=True, help="Aligned GSHHG land-mask raster.")
@@ -344,7 +344,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--ssp2-zip", type=Path, required=True, help="SSP2 population ZIP archive.")
     parser.add_argument("--ssp5-zip", type=Path, required=True, help="SSP5 population ZIP archive.")
     parser.add_argument("--gadm", type=Path, required=True, help="GADM GeoPackage.")
-    parser.add_argument("--audit-dir", type=Path, required=True, help="Directory produced by audit_ijde_common_domain.py.")
+    parser.add_argument("--audit-dir", type=Path, required=True, help="Directory produced by audit_common_domain.py.")
     parser.add_argument("--out", type=Path, default=Path("analysis"), help="Output directory.")
     return parser.parse_args()
 
@@ -609,7 +609,7 @@ def main() -> None:
             "priority": "Uncertainty-conditioned location ranking for improved data acquisition.",
         },
     }
-    (OUT / "ijde_reanalysis_method_summary.json").write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
+    (OUT / "reanalysis_method_summary.json").write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
     print("Written:", OUT)
 
 

@@ -1,7 +1,8 @@
-figure,panel,source,content,transformation
-Figure 7,summary metrics,Table_3_six_site_historical_context.csv,"six-site labels, coordinates, rates, correlation and RMSE intervals",aggregate disclosure for the fixed benchmark-pixel pairs
-Figure 7,quality-control metadata,six_site_quality_control_metadata.json,"distance summary, temporal coverage and interpretation limits",observation-level levelling and InSAR series are not redistributed
-Figures 8-9,12 maps and area bars,main_scenarios_three_persistence_assumptions.csv,water levels and connected areas,stabilisation baseline versus continued trend
-Figures 8-9,map masks,common_baseline/common_continued GeoTIFFs,binary connected masks,identical common analysis domain
-Figure 10,locator,gadm41_CHN.gpkg,China ADM1 boundaries,Guangdong highlighted; analysis extent outlined
-Figure 10,detail,SSP5_2050.tif,SSP5 2050 population,density display masked by SSP5-8.5 2050 +0 m continued-trend connected area
+output,component,source,content,transformation_or_limit
+six-site historical comparison,summary metrics,Table_3_six_site_historical_context.csv,"six-site labels, coordinates, rates, correlation and RMSE intervals",aggregate disclosure for fixed benchmark-pixel pairs
+six-site historical comparison,quality-control metadata,six_site_quality_control_metadata.json,"distance summary, temporal coverage and interpretation limits",observation-level levelling and InSAR series are not redistributed
+2050 connected-inundation scenarios,maps and area summaries,Figure_08_Connected_inundation_2050_source_data.csv,water levels and connected areas,principal assessment horizon
+2100 connected-inundation scenarios,maps and area summaries,Figure_09_Connected_inundation_2100_source_data.csv,water levels and connected areas,exploratory high-uncertainty extension
+connected-inundation scenarios,map masks,user-generated common-domain GeoTIFFs,binary connected masks,large raster masks are not redistributed
+2050 population-exposure example,locator context,GADM 4.1 boundaries,administrative context,provider terms apply
+2050 population-exposure example,population grid,SSP5 2050 population,population density masked by connected inundation,source grid is not redistributed

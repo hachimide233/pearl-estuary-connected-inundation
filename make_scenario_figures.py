@@ -406,8 +406,8 @@ def make_vertical_reference_figure(frame: pd.DataFrame) -> None:
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Generate IJDE scenario and sensitivity figures.")
-    parser.add_argument("--analysis", type=Path, required=True, help="Directory produced by build_ijde_reanalysis.py.")
+    parser = argparse.ArgumentParser(description="Generate scenario and sensitivity figures from audited outputs.")
+    parser.add_argument("--analysis", type=Path, required=True, help="Directory produced by build_common_domain_reanalysis.py.")
     parser.add_argument("--dem", type=Path, required=True, help="Aligned Copernicus DEM raster.")
     parser.add_argument("--land-mask", type=Path, required=True, help="Aligned GSHHG land-mask raster.")
     parser.add_argument("--subsidence-2100", type=Path, required=True, help="OLS 2100 cumulative-subsidence raster.")

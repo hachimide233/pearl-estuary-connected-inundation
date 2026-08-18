@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this software or the accompanying aggregate outputs, cite the archived release used in your analysis."
-title: "Code and aggregate outputs for a vertically harmonised Digital Earth framework for subsidence-sensitive coastal inundation screening"
+title: "Reproducibility package for multi-source Earth observation and subsidence-sensitive coastal inundation screening"
 type: software
-version: 1.1.1
-date-released: 2026-08-16
+version: 1.2.0
+date-released: 2026-08-18
 license: MIT
-doi: 10.5281/zenodo.21965956
+doi: 10.5281/zenodo.21862032
 authors:
   - family-names: Wang
     given-names: Baihan
@@ -33,7 +33,7 @@ abstract: >-
   population exposure, vertical-datum and connectivity sensitivity, and
   six-site historical-comparison quality control in the Pearl River Estuary.
 keywords:
-  - Digital Earth
+  - Earth observation
   - land subsidence
   - connected inundation
   - vertical datum
@@ -41,6 +41,6 @@ keywords:
   - SBAS-InSAR
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.21862032
-    description: Zenodo concept DOI for all releases
+    value: 10.5281/zenodo.21965956
+    description: Previous v1.1.1 release
 repository-code: "https://github.com/hachimide233/pearl-estuary-connected-inundation"

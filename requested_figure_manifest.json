@@ -3,13 +3,17 @@
   "six_site_count": 6,
   "inundation_rows_2050": 6,
   "inundation_rows_2100": 6,
+  "assessment_horizons": {
+    "principal": 2050,
+    "exploratory": 2100
+  },
   "population_example": {
     "scenario": "SSP5-8.5",
     "year": 2050,
     "added_water_m": 0.0,
     "persistence": "continued_trend",
-    "mask": "E:\\project\\ijde_reanalysis_20260816\\analysis\\common_continued_SSP5m8p5_2050_added0p0m.tif",
-    "population_grid": "E:\\project\\ijde_reanalysis_20260816\\analysis\\population_inputs\\SSP5_2050.tif",
+    "mask": "<analysis_dir>/common_continued_SSP5m8p5_2050_added0p0m.tif",
+    "population_grid": "<analysis_dir>/population_inputs/SSP5_2050.tif",
     "population_display": "population density from the 1-km SSP5 grid bilinearly resampled to the analysis grid and masked by connected inundation",
     "reported_exposed_population": 275887.8762064397,
     "reported_exposed_population_million": 0.2758878762064397,
@@ -21,5 +25,5 @@
     "population_million": 0.01,
     "water_level_m": 0.01
   },
-  "integrity_note": "No values are simulated in this plotting script; it reads existing audited CSV and GeoTIFF outputs."
+  "integrity_note": "No values are simulated; plotting workflows read existing audited CSV and GeoTIFF outputs."
 }

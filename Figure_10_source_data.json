@@ -3,11 +3,10 @@
   "year": 2050,
   "added_water_m": 0.0,
   "persistence": "continued_trend",
-  "mask": "E:\\project\\ijde_reanalysis_20260816\\analysis\\common_continued_SSP5m8p5_2050_added0p0m.tif",
-  "population_grid": "E:\\project\\ijde_reanalysis_20260816\\analysis\\population_inputs\\SSP5_2050.tif",
+  "mask": "<analysis_dir>/common_continued_SSP5m8p5_2050_added0p0m.tif",
+  "population_grid": "<analysis_dir>/population_inputs/SSP5_2050.tif",
   "population_display": "population density from the 1-km SSP5 grid bilinearly resampled to the analysis grid and masked by connected inundation",
   "reported_exposed_population": 275887.8762064397,
   "reported_exposed_population_million": 0.2758878762064397,
-  "display_vmin_persons_km2": 10.0,
-  "display_vmax_persons_km2": 5739.9091796875
+  "availability_note": "The source population grid and derived raster mask are not redistributed; provider citations and aggregate results are supplied."
 }
